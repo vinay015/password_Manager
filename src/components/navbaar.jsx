@@ -6,7 +6,7 @@ function Navbaar({ onLogout, isLocked, darkMode, toggleDarkMode }) {
       <nav className={`sticky  m-auto  flex justify-between items-center p-4 h-10 ${darkMode ? "text-white" : "bg-green-300"}`}>
 
           <div className="hover:scale-105 transition-transform p-4 text-3xl">
-            <a href="/">Password</a>
+            <a href="/">My_Password</a>
             <span className={`${darkMode ? "text-purple-400" : "text-purple-700"}`}><a href="/">Managers</a></span>
           </div>
           <ul className="flex gap-6">
